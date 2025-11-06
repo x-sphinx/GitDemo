@@ -8,7 +8,10 @@ git remote add origin https://github.com/x-sphinx/GitDemo.git
 git pull origin main
 git status
 
-git .
+git add .
 git status
 git commit -m "Commit message"
 git push
+
+create a new branch :
+git checkout -b "branchName"
